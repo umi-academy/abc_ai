@@ -9,7 +9,7 @@ load dependency
 //% color="#a88532" weight=20 icon="\uf281"
 namespace UMI_AI {
 
-    //% blockId=mbit_MotorCtrl block="%motor %index"
+    //% blockId=mbit_MotorCtrl block="block 1"
     //% weight=4
     //% blockGap=10
     //% color="#a88532"
@@ -19,7 +19,7 @@ namespace UMI_AI {
         
     }
 
-    //% blockId=mbit_MotorCtrlSpeed block="%motor %index with speed %speed"
+    //% blockId=mbit_MotorCtrlSpeed block="block 2"
     //% weight=4
     //% blockGap=10
     //% speed.min=0 speed.max=255
@@ -30,7 +30,7 @@ namespace UMI_AI {
         
     }
 
-    //% blockId=mbit_Servo_Car block="Set|%num|angle $value"
+    //% blockId=mbit_Servo_Car block="block 3"
     //% weight=96
     //% blockGap=10
     //% color="#a88532"
