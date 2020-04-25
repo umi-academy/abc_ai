@@ -29,6 +29,21 @@ namespace UMI_ML {
         //% blockId="sensorana3" block="SENSOR_3"
         sensor3 = 3,
     }
+
+    //% blockId=perceptron block="Perceptron begin with|%ninputs|input"
+    //% color="#a88532"
+    //% weight=98
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+	export function perceptron (ninputs: number) {
+    	n = ninputs
+    	for (let index = 0; index <= n; index++) {
+        	inputs.push(1)
+    	}
+    	for (let index = 0; index <= n; index++) {
+        	weights.push(Math.randomRange(-1000, 1000) / 1000)
+    	}
+	}
    
     //% blockId=mbit_ultrasonic_car block="read ultrasonic sensor port|%port|(cm)"
     //% color="#006400"
