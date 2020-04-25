@@ -9,10 +9,16 @@
     "files": [
         "README.md",
         "main.ts",
+        "ai.cpp",
+        "Perceptron.h",
         "_locales/en/mbit-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
 }
