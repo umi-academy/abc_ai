@@ -58,7 +58,7 @@ namespace UMI_ML {
 	}
 
 	//% blockId=feed block="Perceptron Feed Forward"
-    //% color="#a88532"
+    //% color="#f54242"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
