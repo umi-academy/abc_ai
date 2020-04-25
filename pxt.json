@@ -1,7 +1,7 @@
 {
     "name": "UMI_AI",
     "version": "0.2",
-    "description": "Extension AI for ABC Maker V2",
+    "description": "Extension Machine Learning for ABC Maker V2",
     "license": "MIT",
     "dependencies": {
         "core": "*"
