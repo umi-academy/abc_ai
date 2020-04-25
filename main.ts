@@ -13,6 +13,14 @@ namespace UMI_ML {
 	let weights: number[] = []
 	let inputs: number[] = []
 
+	function activate(sum: number){
+		if (sum > 0) {
+    		return 1
+    	} else {
+    		return -1
+    	}
+	}
+
     //% blockId=perceptron block="Perceptron begin with|%ninputs|input"
     //% color="#a88532"
     //% weight=98
