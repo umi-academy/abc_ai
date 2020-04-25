@@ -11,5 +11,6 @@ using namespace pxt;
 
 
 namespace ai {
-
+  void MotorCtrl(number){
+  }
 }

@@ -13,6 +13,9 @@ namespace UMI_AI {
     //% weight=4
     //% blockGap=10
     //% color="#a88532"
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=1
+    //% expandableArgumentMode="enabled"
+    //% shim=ai::MotorCtrl
     export function MotorCtrl(var: number): void {
         return
     }
