@@ -44,6 +44,18 @@ namespace UMI_ML {
         	weights.push(Math.randomRange(-1000, 1000) / 1000)
     	}
 	}
+
+	//% blockId=train block="Training with desired value =|%desired|and guess value =|%guess|"
+    //% color="#a88532"
+    //% weight=98
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+	export function train (desired: number, guess: number) {
+    	error = desired - guess
+    	for (let index = 0; index <= n; index++) {
+        	weights.push(c * (0 * 0))
+    	}
+	}
    
     //% blockId=mbit_ultrasonic_car block="read ultrasonic sensor port|%port|(cm)"
     //% color="#006400"
