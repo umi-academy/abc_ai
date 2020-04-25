@@ -47,4 +47,17 @@ namespace UMI_ML {
         	weights.push(c * error * inputs[index])
     	}
 	}
+
+	//% blockId=feed block="Perceptron Feed Forward"
+    //% color="#a88532"
+    //% weight=98
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+	export function feedForward () {
+    	let sum = 0
+    	for (let index = 0; index <= n; index++) {
+        	sum = sum + inputs[index] * weights[index]
+    	}
+    	return activate(sum)
+	}
 }
