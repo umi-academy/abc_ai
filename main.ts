@@ -6,7 +6,7 @@ load dependency
 */
 
 
-//% color="#a88532" weight=20 icon="\uf544"
+//% color="#a88532" weight=20 icon="\uf281"
 namespace UMI_Robot {
 
     const PCA9685_ADD = 0x40
