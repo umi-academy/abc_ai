@@ -36,6 +36,15 @@ namespace UMI_ML {
     	}
 	}
 
+	//% blockId=input block="Set input value at|%index|to|%value|"
+    //% color="#a88532"
+    //% weight=98
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+	export function setInput (index: number, value: number) {
+    	inputs[index-1] = value
+	}
+
 	//% blockId=training block="Training with desired value =|%desired|and guess value =|%guess|"
     //% color="#a88532"
     //% weight=98
@@ -60,4 +69,5 @@ namespace UMI_ML {
     	}
     	return activate(sum)
 	}
+
 }
