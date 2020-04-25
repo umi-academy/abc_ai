@@ -8,10 +8,14 @@ load dependency
 
 //% color="#a88532" weight=20 icon="\uf281"
 namespace UMI_ML {
-	var c = 0.008
-    var n = 0
-	var weights: number[] = []
-	var inputs: number[] = []
+	let c = 0.008
+    let n = 0
+	let weights: number[] = []
+	let inputs: number[] = []
+	c = 0.008
+	inputs = []
+	weights = []
+	n = 0
 
 	//% blockId=perceptron block="Perceptron begin with|%ninputs|input"
     //% color="#a88532"
