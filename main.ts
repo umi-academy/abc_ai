@@ -8,6 +8,11 @@ load dependency
 
 //% color="#a88532" weight=20 icon="\uf281"
 namespace UMI_ML {
+	let n = 0
+	let weights: number[] = []
+	let inputs: number[] = []
+	c = 0.008
+	
 	export enum enSensor {
 
         //% blockId="sensor1" block="SENSOR_1"
