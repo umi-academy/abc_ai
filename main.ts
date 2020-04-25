@@ -15,7 +15,7 @@ namespace UMI_AI {
     //% color="#a88532"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=1
     //% expandableArgumentMode="enabled"
-    export function MotorCtrl(motor: enMotor, index: Motor_State): void {
+    export function MotorCtrl(): void {
         
     }
 
@@ -26,7 +26,7 @@ namespace UMI_AI {
     //% color="#a88532"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=1
     //% expandableArgumentMode="enabled"
-    export function MotorCtrlSpeed(motor: enMotor, index: MotorState, speed: number): void {
+    export function MotorCtrlSpeed(): void {
         
     }
 
@@ -37,7 +37,7 @@ namespace UMI_AI {
     //% num.min=1 num.max=3 value.min=0 value.max=180
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=9
     //% value.shadow="protractorPicker"
-    export function Servo_Car(num: enServo, value: number): void {
+    export function Servo_Car(): void {
 
         // 50hz: 20,000 us
         let us = (value * 1800 / 180 + 600); // 0.6 ~ 2.4
