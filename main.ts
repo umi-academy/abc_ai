@@ -45,15 +45,15 @@ namespace UMI_ML {
     	}
 	}
 
-	//% blockId=train block="Training with desired value =|%desired|and guess value =|%guess|"
+	//% blockId=training block="Training with desired value =|%desired|and guess value =|%guess|"
     //% color="#a88532"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
 	export function train (desired: number, guess: number) {
-    	error = desired - guess
+    	let error = desired - guess
     	for (let index = 0; index <= n; index++) {
-        	weights.push(c * (0 * 0))
+        	weights.push(c * error * inputs[index])
     	}
 	}
    
